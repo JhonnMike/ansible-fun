@@ -1,4 +1,11 @@
-- name: print message hello world
+- name: print message hello world, Play1
+  hosts: all
+  tasks:
+   - name: module name
+     ansible.builtin.debug:
+      msg: Hello how are you
+
+- name: print message hello world , play2
   hosts: all
   tasks:
    - name: module name

@@ -4,5 +4,3 @@
   - name : Print module name
     ansible.builtin.debug
      msg: Hellow how are you
-
- 

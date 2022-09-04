@@ -1,6 +1,6 @@
 name: print message hello world
 hosts: all
 tasks:
- name: Print module name
- ansilble.builtin.debug:
-  msg: Hello how are you
+  name: Print module name
+  ansilble.builtin.debug:
+   msg: Hello how are you
